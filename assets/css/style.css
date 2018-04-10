@@ -3,22 +3,36 @@ body {
     color: #434343;
 }
 
-header { }
+header {
+    background: url('../images/image1.jpg') center top;
+    background-size: cover;
+    min-height: 100vh;
+}
     header .logo {}
-    header .hand {}
+    header .hand img {
+        left: 50%;
+        max-height: 900px;
+        position: relative;
+        top: 400px;
+    }
 
 
-.content {}
+.content {
+  background: #fafafa;
+  position: relative;
+    z-index: 80;
+}
+    .content h2 {
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 100px auto 150px;
+    }
+
 .content-card { margin-bottom: 150px; }
     .content-card img {
         max-height: 100px;
         max-width: 100px;
         margin-bottom: 75px;
-    }
-    .content-card h2 {
-        font-size: 2.5rem;
-        text-align: center;
-        margin: 100px auto 150px;
     }
 
     .content-card h3 {
