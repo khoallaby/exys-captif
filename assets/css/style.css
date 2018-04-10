@@ -43,3 +43,35 @@ header {
     .content-card p {font-size: 1.8rem;
         line-height: 2.25rem;
     }
+
+
+
+.bottom-info {
+    background: url('../images/image8.jpg') center top;
+    background-size: cover;
+    color: white;
+    min-height: 750px;
+    text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5)
+}
+
+    .bottom-info h2 {
+        font-size: 6rem;
+        margin-bottom: 30px;
+    }
+    .bottom-info p {
+        font-size: 1.75rem;
+    }
+
+
+
+
+
+
+
+/* useful classes */
+
+.flex,
+.vcenter,
+.hcenter { display: -ms-flexbox; display: -webkit-flex; display: flex; }
+.vcenter { -ms-flex-align: center; -webkit-align-items: center; -webkit-box-align: center; align-items: center; }
+.hcenter {  -webkit-justify-content: center; justify-content: center; }
