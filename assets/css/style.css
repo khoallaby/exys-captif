@@ -30,6 +30,7 @@ header {
 
 .content-card { margin-bottom: 150px; }
     .content-card img {
+        display: none;
         max-height: 100px;
         max-width: 100px;
         margin-bottom: 75px;
