@@ -19,6 +19,9 @@
     header .logo h1 {
         display: block;
     }
+    header .logo .btn-primary {
+        display: block;
+    }
     .content-card img {
         display: inline-block;
     }
