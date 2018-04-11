@@ -27,6 +27,13 @@
         display: inline-block;
     }
 
+    .bottom-info h2 {
+        font-size: 6rem;
+    }
+    .contact p {
+        font-size: 3rem;
+    }
+
 }
 
 /* Large devices (desktops, 992px and up) */
