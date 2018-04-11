@@ -8,18 +8,33 @@ header {
     background-size: cover;
     min-height: 100vh;
 }
+    header .logo-container {
+        display: block;
+        background: url('../images/hand.png') bottom center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-align: center;
+        width: 100vw;
+    }
     header .logo {
         color: white;
-        padding-left: 40%;
+        height: 100vh;
+        padding-top: 30px;
         text-shadow: 4px 4px 2px rgba(0, 0, 0, 0.5);
     }
+    header .logo h1 {
+        display: inline-block;
+    }
     header .logo h2 {
+        display: inline-block;
         margin-bottom: 40px;
     }
     header .logo .btn-primary {
         border-radius: 10px;
         font-size: 1.5rem;padding: 10px 20px;
         text-shadow: none;
+        position: relative;
+        top: 60%;
     }
     header .hand img {
         /*left: 50%;*/
