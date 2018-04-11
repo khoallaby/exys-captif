@@ -9,6 +9,7 @@
         background: none;
         display: flex;
         text-align: left;
+        width: auto;
     }
     header .logo {
         height: auto;
